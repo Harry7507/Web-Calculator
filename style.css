@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+.base {
+    height: 480px;
+    width: 350px;
+    background-color: rgb(99, 99, 99);
+    border-radius: 25px;
+}
+
+input {
+    position: relative;
+    top: 25px;
+    left: 21px;
+    height: 50px;
+    width: 300px;
+    background-color: rgb(214, 214, 214);
+    font-size: 2rem;
+}
+
+.keypad {
+    position: relative;
+    top: 50px;
+    left: 20px;
+    height: 340px;
+    width: 300px;
+    background-color: rgb(73, 73, 73);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 5px 5px;
+    font-size: 1.7rem;
+}
+
+.operation {
+    background-color: rgb(255, 115, 0);
+}
+
+#equal {
+    background-color: rgb(0, 234, 255);
+}
+
+button:hover {
+    background-color: rgb(195, 195, 195);
+}
+
+.operation:hover {
+    background-color: rgba(255, 115, 0, 0.748);
+}
+
+#equal:hover {
+    background-color: rgb(0, 234, 255, 0.748);
+}
