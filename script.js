@@ -8,3 +8,11 @@ function appearOnScreen (input){
 function calculate (){
     screen.value = eval(screen.value);
 }
+
+function clearSc (){
+    screen.value = " ";
+}
+
+function erase (){
+   screen.value = screen.value%10;
+}
