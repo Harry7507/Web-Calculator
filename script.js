@@ -14,5 +14,5 @@ function clearSc (){
 }
 
 function erase (){
-   screen.value = screen.value%10;
+   screen.value = Math.floor(screen.value/10);
 }
