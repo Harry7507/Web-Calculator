@@ -1,13 +1,5 @@
 # 📂 My Calculator Project
 
-<p align="center">
-  <img src="https://shields.io" alt="Status"/>
-  <img src="https://shields.io" alt="Languages"/>
-  <img src="https://shields.io" alt="License"/>
-</p>
-
----
-
 ## ✨ Core Features
 
 *   ⚡ **Instant Execution**: Real-time evaluation of basic operations (+, -, ×, ÷).
