@@ -66,10 +66,10 @@ button:hover {
     background-color: #00eaff99;
 }
 
-.clear {
+.bottom-buttons {
     background-color: #6600ff;
 }
 
-.clear:hover {
+.bottom-buttons:hover {
     background-color: #6600ff93;
 }
