@@ -1,5 +1,5 @@
 body {
-    background-color: #7c7c7c;
+    background: url("background.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,12 @@ body {
 .base {
     height: 510px;
     width: 350px;
-    background-color: #383838;
+    background-color: rgba(163, 162, 162, 0);
+    backdrop-filter: blur(13px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 
+     0 0 20px rgba(255, 255, 255, 0.5),
+     0 0  40px rgba(255, 255, 255, 0.4);
     border-radius: 25px;
 }
 
@@ -19,7 +24,8 @@ input {
     left: 21px;
     height: 56px;
     width: 300px;
-    background-color: #d6d6d6;
+    background-color: #0101018a;
+    color: aliceblue;
     font-size: 2rem;
 }
 
@@ -29,12 +35,12 @@ input {
     left: 20px;
     height: 370px;
     width: 300px;
-    background-color: #ffffff08;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
     padding: 5px;
     overflow: hidden;
+    border: 0.8px solid rgba(240, 248, 255, 0.2);
     border-radius: 25px;
 }
 
@@ -44,32 +50,41 @@ button {
     border-radius: 50%;
     margin: 5px 5px;
     font-size: 1.7rem;
+    background-color: rgba(250, 235, 215, 0.5);
 }
 
 .operation {
-    background-color: #ff5500;
+    background-color: rgba(255, 225, 0, 0.7);
 }
 
 #equal {
-    background-color: #00f2ff;
-}
-
-button:hover {
-    background-color: #c3c3c3e2;
-}
-
-.operation:hover {
-    background-color: #ff5500bc;
-}
-
-#equal:hover {
-    background-color: #00eaff99;
+    background-color: rgba(0, 174, 255, 0.5);
 }
 
 .bottom-buttons {
-    background-color: #6600ff;
+    background-color: rgba(0, 45, 255, 0.5);
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-2.5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.operation:hover {
+    background-color: rgba(255, 255, 0);
+    transform: translateY(-2.5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+#equal:hover {
+    background-color: rgb(0, 174, 255);
+    transform: translateY(-2.5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
 }
 
 .bottom-buttons:hover {
-    background-color: #6600ff93;
+    background-color: rgb(0, 45, 255);
+    transform: translateY(-2.5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
 }
