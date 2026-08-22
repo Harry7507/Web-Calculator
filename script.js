@@ -16,3 +16,7 @@ function clearSc (){
 function erase (){
     screen.value = screen.value.slice(0, -1);
 }
+
+document.getElementById("Ai").addEventListener("click", function () {
+    window.location.href = "https://math-gpt.org/";
+});
