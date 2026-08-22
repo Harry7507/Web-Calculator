@@ -24,7 +24,7 @@ input {
     left: 21px;
     height: 56px;
     width: 300px;
-    background-color: #0101018a;
+    background-color: #171717aa;
     border: 2px solid rgb(100, 100, 100);
     color: aliceblue;
     font-size: 2rem;
@@ -88,4 +88,19 @@ button:hover {
     background-color: rgb(0, 45, 255);
     transform: translateY(-2.5px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+#Ai {
+    background-color: rgba(0, 45, 255, 0.5);
+}
+
+#Ai:hover {
+    background: linear-gradient(
+        to right,
+        blue 0%,
+        purple 100%
+    );
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
 }
