@@ -1,5 +1,9 @@
 body {
-    background: url("background.jpg");
+    background: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,11 +63,11 @@ button {
 }
 
 #equal {
-    background-color: rgba(0, 174, 255, 0.5);
+    background-color: rgba(255, 255, 0, 0.7);
 }
 
 .bottom-buttons {
-    background-color: rgba(0, 45, 255, 0.5);
+    background-color: rgba(80, 80, 80, 0.7);
 }
 
 button:hover {
@@ -79,19 +83,20 @@ button:hover {
 }
 
 #equal:hover {
-    background-color: rgb(0, 174, 255);
+    background-color: rgb(255, 255, 0);
     transform: translateY(-2.5px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
 }
 
 .bottom-buttons:hover {
-    background-color: rgb(0, 45, 255);
+    background-color: rgb(60, 60, 60);
+    color: white;
     transform: translateY(-2.5px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
 }
 
 #Ai {
-    background-color: rgba(0, 45, 255, 0.5);
+    background-color: rgba(80, 80, 80, 0.7);
 }
 
 #Ai:hover {
